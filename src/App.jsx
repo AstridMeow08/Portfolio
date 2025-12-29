@@ -8,6 +8,7 @@ import RankSEO from './pages/CaseStudies/pages/RankSEO'
 import Ecommerce from './pages/CaseStudies/pages/Ecommerce'
 import Paplixo from './pages/CaseStudies/pages/Paplixo'
 import PDFWorks from './pages/CaseStudies/pages/PDFWorks'
+import HRalva from './pages/CaseStudies/pages/HRalva'
 import Contact from './pages/Contact/Contact'
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/case-studies" element={<CaseStudies />} />
-        <Route path="/case-studies/rankseo" element={<RankSEO />} />
-        <Route path="/case-studies/ecommerce" element={<Ecommerce />} />
-        <Route path="/case-studies/paplixo" element={<Paplixo />} />
-        <Route path="/case-studies/pdfworks" element={<PDFWorks />} />
+        <Route path="/works" element={<CaseStudies />} />
+        <Route path="/works/rankseo" element={<RankSEO />} />
+        <Route path="/works/ecommerce" element={<Ecommerce />} />
+        <Route path="/works/paplixo" element={<Paplixo />} />
+        <Route path="/works/pdfworks" element={<PDFWorks />} />
+        <Route path="/works/hralva" element={<HRalva />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
