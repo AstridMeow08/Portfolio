@@ -4,7 +4,7 @@ import CaseStudyHero from '../components/CaseStudyHero';
 import CaseStudySidebar from '../components/CaseStudySidebar';
 import CaseStudyContent from '../components/CaseStudyContent'; // Keeping the original content component for this one as it matches perfectly
 import NextProject from '../components/NextProject';
-
+ 
 export default function Ecommerce() {
     return (
         <div className="bg-background-light font-display text-text-main min-h-screen flex flex-col overflow-x-hidden selection:bg-primary selection:text-text-main">
