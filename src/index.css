@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #f9f506;
+    --color-background-light: #f8f8f5;
+    --color-background-dark: #23220f;
+    --color-surface-light: #ffffff;
+    --color-surface-dark: #2d2c1b;
+    --color-text-main: #1c1c0d;
+    --color-text-muted: #9e9d47;
+
+    --font-display: "Spline Sans", sans-serif;
+
+    --radius-DEFAULT: 1rem;
+    --radius-lg: 2rem;
+    --radius-xl: 3rem;
+    --radius-full: 9999px;
+
+    --animate-ticker: ticker 30s linear infinite;
+    --animate-float: float 6s ease-in-out infinite;
+
+    @keyframes ticker {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes float {
+        0%, 100% { transform: rotateX(-20deg) rotateY(-30deg) translateY(0); }
+        50% { transform: rotateX(-20deg) rotateY(-20deg) translateY(-20px); }
+    }
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .transform-style-3d {
+        transform-style: preserve-3d;
+    }
+}
