@@ -141,7 +141,7 @@ export default function RankSEO() {
                             </article>
                             <NextProject
                                 title="E-Commerce Replatforming"
-                                link="/case-studies/ecommerce"
+                                link="/works/ecommerce"
                                 backgroundImage="https://lh3.googleusercontent.com/aida-public/AB6AXuCmYwnH5LVE4EZocpKsD8ytI0EbzJVS0P0xAFiuBME48Ne6aFjC7SxaSqlGPXtzimVx22mpmVCwPTwktmctlonzrghYvlh4yE0ydvHnhBABcCdEJLxUAThE0t0q5lmd-N_0CZxzt9Kw_yIvc1fWym7qF-lkfTxW6pj8RdmdAycSLSQOlYCEqDYhG6jYSmpDpmT39SEILqZPIWhsrFPEz9WeFvCqQM29hKoq_z1PevuuxQAax6_WWHB4pS_v8PGmiwm5P8eqpGnQObkO"
                             />
                         </div>

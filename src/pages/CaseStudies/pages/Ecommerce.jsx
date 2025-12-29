@@ -4,7 +4,7 @@ import CaseStudyHero from '../components/CaseStudyHero';
 import CaseStudySidebar from '../components/CaseStudySidebar';
 import CaseStudyContent from '../components/CaseStudyContent'; // Keeping the original content component for this one as it matches perfectly
 import NextProject from '../components/NextProject';
- 
+
 export default function Ecommerce() {
     return (
         <div className="bg-background-light font-display text-text-main min-h-screen flex flex-col overflow-x-hidden selection:bg-primary selection:text-text-main">
@@ -27,7 +27,7 @@ export default function Ecommerce() {
                                 <CaseStudyContent />
                                 <NextProject
                                     title="Paplixo - Business Docs"
-                                    link="/case-studies/paplixo"
+                                    link="/works/paplixo"
                                     backgroundImage="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=3000&auto=format&fit=crop"
                                 />
                             </div>

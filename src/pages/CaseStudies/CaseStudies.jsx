@@ -10,7 +10,7 @@ export default function CaseStudies() {
             category: "SaaS Platform",
             description: "A comprehensive online documentation platform for SMEs and freelancers, featuring a custom integrated document editor and CMS.",
             image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=3000&auto=format&fit=crop",
-            link: "/case-studies/paplixo"
+            link: "/works/paplixo"
         },
         {
             id: 'pdfworks',
@@ -18,7 +18,15 @@ export default function CaseStudies() {
             category: "SaaS Tool",
             description: "A comprehensive browser-based PDF manipulation platform featuring hybrid OCR, secure editing, and subscription management.",
             image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3000&auto=format&fit=crop",
-            link: "/case-studies/pdfworks"
+            link: "/works/pdfworks"
+        },
+        {
+            id: 'hralva',
+            title: "HRalva - Next-Gen HRMS",
+            category: "HRMS Platform",
+            description: "A modular Human Resource Management System streamlining communication and document workflows for modern workplaces.",
+            image: "https://images.unsplash.com/photo-1522071823991-b9671e9d7fbd?q=80&w=3000&auto=format&fit=crop",
+            link: "/works/hralva"
         },
         {
             id: 'rankseo',
@@ -26,7 +34,7 @@ export default function CaseStudies() {
             category: "AI Platform",
             description: "An advanced implementation of automated data acquisition and AI analytics for SEO optimization, featuring Playwright crawling and n8n workflows.",
             image: "https://images.unsplash.com/photo-1571786256017-aee7a0c006b6?q=80&w=3000&auto=format&fit=crop",
-            link: "/case-studies/rankseo"
+            link: "/works/rankseo"
         },
         {
             id: 'ecommerce',
@@ -34,7 +42,7 @@ export default function CaseStudies() {
             category: "Headless Commerce",
             description: "A complete overhaul of a legacy retail platform for a Shopify Plus brand, resulting in 200% faster load times and 15% conversion increase.",
             image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCmYwnH5LVE4EZocpKsD8ytI0EbzJVS0P0xAFiuBME48Ne6aFjC7SxaSqlGPXtzimVx22mpmVCwPTwktmctlonzrghYvlh4yE0ydvHnhBABcCdEJLxUAThE0t0q5lmd-N_0CZxzt9Kw_yIvc1fWym7qF-lkfTxW6pj8RdmdAycSLSQOlYCEqDYhG6jYSmpDpmT39SEILqZPIWhsrFPEz9WeFvCqQM29hKoq_z1PevuuxQAax6_WWHB4pS_v8PGmiwm5P8eqpGnQObkO",
-            link: "/case-studies/ecommerce"
+            link: "/works/ecommerce"
         }
     ];
 
@@ -45,10 +53,10 @@ export default function CaseStudies() {
             <main className="w-full flex flex-col pt-24 pb-20 px-4 sm:px-6 lg:px-8 max-w-[1280px] mx-auto">
                 <div className="flex flex-col gap-6 mb-16 text-center max-w-2xl mx-auto">
                     <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-text-main">
-                        Selected Work
+                        Selected Works
                     </h1>
                     <p className="text-lg text-text-muted">
-                        A collection of technical deep dives into my recent projects, showcasing architectural decisions and engineering challenges.
+                        A gallery of technical deep dives into my recent projects, showcasing architectural decisions and engineering challenges.
                     </p>
                 </div>
 

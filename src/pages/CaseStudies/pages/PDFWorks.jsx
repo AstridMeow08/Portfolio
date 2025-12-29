@@ -258,9 +258,9 @@ export default function PDFWorks() {
                             </article>
 
                             <NextProject
-                                title="RankSEO - AI Platform"
-                                link="/case-studies/rankseo"
-                                backgroundImage="https://images.unsplash.com/photo-1571786256017-aee7a0c006b6?q=80&w=3000&auto=format&fit=crop"
+                                title="HRalva - Next-Gen HRMS"
+                                link="/works/hralva"
+                                backgroundImage="https://images.unsplash.com/photo-1522071823991-b9671e9d7fbd?q=80&w=3000&auto=format&fit=crop"
                             />
                         </div>
                     </div>

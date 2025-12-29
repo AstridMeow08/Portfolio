@@ -12,7 +12,7 @@ export default function Navigation() {
                     <Link className="text-sm font-medium text-text-main hover:text-primary transition-colors" to="/">Home</Link>
                     <Link className="text-sm font-medium text-text-main hover:text-primary transition-colors" to="/about">About</Link>
                     <Link className="text-sm font-medium text-text-main hover:text-primary transition-colors" to="/skills">Services</Link>
-                    <Link className="text-sm font-medium text-text-main hover:text-primary transition-colors" to="/case-studies">Work</Link>
+                    <Link className="text-sm font-medium text-text-main hover:text-primary transition-colors" to="/works">Works</Link>
                     {/* <a className="text-sm font-medium text-text-main hover:text-primary transition-colors" href="#">Process</a> */}
                 </div>
                 <div className="flex items-center gap-3">
