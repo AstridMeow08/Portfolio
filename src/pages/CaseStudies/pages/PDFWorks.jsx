@@ -29,7 +29,8 @@ export default function PDFWorks() {
                                     { id: "ocr", label: "Hybrid OCR Engine" },
                                     { id: "monetization", label: "Monetization" },
                                     { id: "editor", label: "Canvas Editor" },
-                                    { id: "security", label: "Security & 2FA" }
+                                    { id: "security", label: "Security & 2FA" },
+                                    { id: "deployment", label: "Server Deployment" }
                                 ]}
                             />
 
@@ -250,6 +251,45 @@ export default function PDFWorks() {
                                             </div>
                                             <p className="text-xs text-text-muted">
                                                 Granular Access Control allows users to share documents via specific email allow-lists, ensuring only authorized eyes view the data.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                {/* Section: Deployment */}
+                                <section id="deployment" className="flex flex-col gap-6 scroll-mt-28">
+                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-text-main border-b border-[#e9e8ce] pb-4">
+                                        Production Server Deployment
+                                    </h2>
+                                    <p className="text-text-muted leading-relaxed">
+                                        Deploying a performance-heavy application like PDFWorks required a multi-tiered architecture to handle both lightweight web requests and heavy OCR processing.
+                                    </p>
+                                    <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
+                                        <div className="p-6 rounded-xl border border-[#e9e8ce] bg-white flex flex-col gap-4">
+                                            <h3 className="font-bold text-text-main flex items-center gap-2">
+                                                <span className="material-symbols-outlined text-blue-500">cloud</span>
+                                                Cloud Infrastructure
+                                            </h3>
+                                            <p className="text-xs text-text-muted leading-relaxed">
+                                                Deployed on a scalable cloud VPS instance, utilizing NGINX for high-concurrency request handling and PM2 for Node.js process orchestration.
+                                            </p>
+                                        </div>
+                                        <div className="p-6 rounded-xl border border-[#e9e8ce] bg-white flex flex-col gap-4">
+                                            <h3 className="font-bold text-text-main flex items-center gap-2">
+                                                <span className="material-symbols-outlined text-purple-500">layers</span>
+                                                Docker Orchestration
+                                            </h3>
+                                            <p className="text-xs text-text-muted leading-relaxed">
+                                                The Python EasyOCR service is isolated in its own Docker container with strict resource limits, preventing heavy computation from impacting the main web server performance.
+                                            </p>
+                                        </div>
+                                        <div className="p-6 rounded-xl border border-[#e9e8ce] bg-white flex flex-col gap-4">
+                                            <h3 className="font-bold text-text-main flex items-center gap-2">
+                                                <span className="material-symbols-outlined text-green-500">terminal</span>
+                                                Security & Monitoring
+                                            </h3>
+                                            <p className="text-xs text-text-muted leading-relaxed">
+                                                Integrated Certbot for automated TLS/SSL certificate lifecycle management and basic monitoring alerts for service availability.
                                             </p>
                                         </div>
                                     </div>

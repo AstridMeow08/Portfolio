@@ -14,7 +14,7 @@ export default function HeroSection() {
 
                 <div className="flex flex-col gap-4 text-slate-600 dark:text-slate-400 text-base md:text-lg leading-relaxed">
                     <p>
-                        I'm Alex, a Full-Stack Developer passionate about building accessible, pixel-perfect user interfaces that blend seamlessly with performant backend architectures.
+                        I'm Lakshmipathy Venkatesan, a Full-Stack Developer passionate about building accessible, pixel-perfect user interfaces that blend seamlessly with performant backend architectures.
                     </p>
                     <p>
                         With a background in traditional graphic design and a degree in Computer Science, I bridge the often-wide gap between design and engineering. I don't just write code; I craft solutions that are scalable, maintainable, and delightful to use.
@@ -64,8 +64,8 @@ export default function HeroSection() {
                         />
                     </div>
                     <div>
-                        <div className="text-sm font-bold text-slate-900 dark:text-white">Alex Dev</div>
-                        <div className="text-xs text-primary font-medium">Senior Developer</div>
+                        <div className="text-sm font-bold text-slate-900 dark:text-white">Lakshmipathy Venkatesan</div>
+                        <div className="text-xs text-primary font-medium">Full Stack Developer</div>
                     </div>
                 </div>
             </div>

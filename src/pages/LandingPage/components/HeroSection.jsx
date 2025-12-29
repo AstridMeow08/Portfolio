@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function HeroSection() {
     return (
         <section className="relative w-full flex-1 flex flex-col items-center justify-center px-4 py-12 lg:py-24 max-w-7xl mx-auto">
@@ -27,13 +29,13 @@ export default function HeroSection() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-                        <button className="bg-text-main text-white hover:opacity-90 px-8 py-4 rounded-full font-bold text-base transition-all flex items-center justify-center gap-2">
-                            View Projects
-                            <span className="material-symbols-outlined text-[20px]">arrow_downward</span>
-                        </button>
-                        <button className="bg-transparent border-2 border-[#e9e8ce] hover:border-text-main px-8 py-4 rounded-full font-bold text-base transition-all text-text-main flex items-center justify-center gap-2">
+                        <Link to="/works" className="bg-text-main text-white hover:opacity-90 px-8 py-4 rounded-full font-bold text-base transition-all flex items-center justify-center gap-2">
+                            View Works
+                            <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+                        </Link>
+                        <Link to="/contact" className="bg-transparent border-2 border-[#e9e8ce] hover:border-text-main px-8 py-4 rounded-full font-bold text-base transition-all text-text-main flex items-center justify-center gap-2">
                             Contact Me
-                        </button>
+                        </Link>
                     </div>
 
                     <div className="flex items-center justify-center lg:justify-start gap-6 mt-8">
