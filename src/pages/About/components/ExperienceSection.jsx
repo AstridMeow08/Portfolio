@@ -1,22 +1,22 @@
 export default function ExperienceSection() {
     const experiences = [
         {
-            title: 'Senior Developer',
-            period: '2024 - Present',
+            title: 'Junir Full stack Developer',
+            period: '2025 - Present',
             company: 'TechCorp Solutions',
             description: 'Leading the frontend migration of the core product to Next.js. Improved site performance by 40% and established a comprehensive design system used across 3 separate engineering squads.',
             current: true
         },
         {
-            title: 'Full Stack Developer',
-            period: '2021 - 2024',
-            company: 'StartupX Innovations',
-            description: 'Developed and deployed scalable REST APIs using Node.js and Express. Integrated Stripe payments and third-party authentication services, serving over 10,000 monthly active users.',
+            title: 'MCA - Master of Computer Applications',
+            period: '2023 - 2025',
+            company: 'Dr. M.G.R Educational and Research Institute',
+            description: 'Focused on Software Engineering and Human-Computer Interaction. Graduated with honors. Capstone project involved building an accessible learning management system for schools.',
             current: false
         },
         {
             title: 'BS Computer Science',
-            period: '2017 - 2021',
+            period: '2019 - 2022',
             company: 'University of Technology',
             description: 'Focused on Software Engineering and Human-Computer Interaction. Graduated with honors. Capstone project involved building an accessible learning management system for schools.',
             current: false

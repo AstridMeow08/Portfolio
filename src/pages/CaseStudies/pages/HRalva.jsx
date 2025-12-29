@@ -28,7 +28,8 @@ export default function HRalva() {
                                 contents={[
                                     { id: "announcements", label: "Announcement Engine" },
                                     { id: "templates", label: "Template Management" },
-                                    { id: "integration", label: "OnlyOffice Integration" }
+                                    { id: "integration", label: "OnlyOffice Integration" },
+                                    { id: "deployment", label: "Server Deployment" }
                                 ]}
                             />
 
@@ -126,6 +127,60 @@ export default function HRalva() {
                                                 <span className="px-2 py-1 bg-surface-dark text-white text-[10px] font-bold uppercase rounded">Docker Compose</span>
                                                 <span className="px-2 py-1 bg-surface-dark text-white text-[10px] font-bold uppercase rounded">JWT Auth</span>
                                                 <span className="px-2 py-1 bg-surface-dark text-white text-[10px] font-bold uppercase rounded">Collaborative Editing</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                {/* Section: Deployment */}
+                                <section id="deployment" className="flex flex-col gap-6 scroll-mt-28">
+                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-text-main border-b border-[#e9e8ce] pb-4">
+                                        Full-Stack Deployment Architecture
+                                    </h2>
+                                    <p className="text-text-muted leading-relaxed">
+                                        Managing a modular HRMS requires a scalable and highly available infrastructure. I architected and executed the full deployment strategy on a production VPS.
+                                    </p>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div className="p-6 rounded-xl bg-surface-light border border-[#e9e8ce] flex flex-col gap-4">
+                                            <div className="flex items-center gap-3">
+                                                <div className="size-10 rounded-full bg-orange-100 flex items-center justify-center text-orange-600">
+                                                    <span className="material-symbols-outlined">dns</span>
+                                                </div>
+                                                <h3 className="font-bold text-text-main">Production VPS & NGINX</h3>
+                                            </div>
+                                            <p className="text-sm text-text-muted">
+                                                Configured a Linux VPS environment with NGINX acting as a reverse proxy, handling SSL termination through Certbot and managing traffic between the frontend and distributed backend services.
+                                            </p>
+                                        </div>
+                                        <div className="p-6 rounded-xl bg-surface-light border border-[#e9e8ce] flex flex-col gap-4">
+                                            <div className="flex items-center gap-3">
+                                                <div className="size-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                                                    <span className="material-symbols-outlined">container</span>
+                                                </div>
+                                                <h3 className="font-bold text-text-main">Dockerized Services</h3>
+                                            </div>
+                                            <p className="text-sm text-text-muted">
+                                                Leveraged Docker and Docker Compose to containerize the Node.js API, MongoDB instance, and the OnlyOffice Document Server, ensuring environment consistency across staging and production.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="p-6 rounded-xl bg-surface-dark text-white flex flex-col gap-4">
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-sm font-bold uppercase tracking-widest text-primary">Process Automation</span>
+                                            <span className="px-2 py-1 bg-green-500/20 text-green-400 text-[10px] font-bold rounded uppercase">Active</span>
+                                        </div>
+                                        <div className="flex flex-col gap-2">
+                                            <div className="flex items-center gap-3 text-sm">
+                                                <span className="material-symbols-outlined text-primary">shield_check</span>
+                                                Secure JWT-based communication between containers.
+                                            </div>
+                                            <div className="flex items-center gap-3 text-sm">
+                                                <span className="material-symbols-outlined text-primary">speed</span>
+                                                PM2 process management for zero-downtime reloads.
+                                            </div>
+                                            <div className="flex items-center gap-3 text-sm">
+                                                <span className="material-symbols-outlined text-primary">backup</span>
+                                                Automated daily database backups via Cron jobs.
                                             </div>
                                         </div>
                                     </div>

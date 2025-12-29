@@ -20,7 +20,7 @@ export default function Footer() {
                     ))}
                 </div>
                 <div className="text-sm text-text-muted">
-                    © 2024. All rights reserved.
+                    © 2025. All rights reserved.
                 </div>
             </div>
         </footer>
